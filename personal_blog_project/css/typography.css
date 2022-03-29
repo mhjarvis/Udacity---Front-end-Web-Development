@@ -1,0 +1,7 @@
+/* Stylesheet includes fonts, sizes, lineheights, etc. */
+
+@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
+
+body {
+    font-family: 'Cardo', 'Times New Roman', Times, serif;
+}
