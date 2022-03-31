@@ -1,5 +1,14 @@
 /* Stylesheet includes colors, background images, etc. */
 
-body {
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(94, 92, 92);
+}
+
+header {
     
 }
