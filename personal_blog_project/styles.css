@@ -7,10 +7,11 @@
 .container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 2fr 1fr 2fr 1fr;
+    grid-template-rows: 2fr 1fr 2fr 2fr 1fr;
     grid-template-areas: "header header header header"
                          "nav nav nav nav"
-                         "article article article aside"
+                         "article article article article"
+                         "aside aside aside aside"
                          "footer footer footer footer";
 }
 
@@ -18,24 +19,53 @@
 
 .header {
     grid-area: header;
-    background-image: url(/images/clouds.png);
-    background-size: ;    
+    display: flex;
+    align-items: center;
+    background-image: url(/images/grass.png);
+    background-size: contain;
 }
 
 .title {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1em;
+    margin-left: 5%;
 }
 
 /************************************** NAV ***********************************/
 
 .nav {
-    background-color: bisque;
     grid-area: nav;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav ul {
+    display: flex;    
+    padding: 1em 0 1em 0;
+    border-top: 1.5px solid black;
+    border-bottom: 1.5px solid black;
+}
+
+.nav ul li {
+    list-style-type: none;
+    margin: 0 3em 0 3em;
 }
 
 /************************************** ARTICLE *************************************/
 .article {
-    background-color: blue;
     grid-area: article;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 2% 15% 2% 15%;;
+}
+
+#current-article-title {
+    margin: 1em 0 1em 0;
 }
 
 /************************************** ASIDE *************************************/
@@ -46,6 +76,12 @@
 
 /************************************** FOOTER ************************************/
 .footer {
-    background-color: pink;
     grid-area: footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#copyright, #linkedin, #github {
+    margin: 5px;
 }

@@ -1,2 +1,5 @@
 /* Stylesheet includes positioning, floats, alignments, etc. */
 
+body {
+    font-size: 1.2em;
+}
