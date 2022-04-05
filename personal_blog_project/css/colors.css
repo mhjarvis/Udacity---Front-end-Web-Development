@@ -1,8 +1,13 @@
 /* Stylesheet includes colors, background images, etc. */
 
+body {
+    background-color: #659dbd;
+    color: #fbeec1;
+}
+
 a {
-    color: #000000;
     text-decoration: none;
+    color: #fbeec1;
 }
 
 a:hover {
