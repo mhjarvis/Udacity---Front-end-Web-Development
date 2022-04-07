@@ -1,0 +1,42 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(auto-fit, minmax(50px, 1fr));
+    grid-template-areas: "nav nav nav nav"
+                         "header header header header"
+                         "connect connect connect connect"
+                         "post post post post"
+                         "projects projects projects projects"
+                         "footer footer footer footer";
+}
+
+/* ========================== NAVIGATION ========================== */
+.page-navigation {
+    grid-area: nav;
+    ;
+}
+
+/* ========================== HEADING ========================== */
+.page-heading {
+    grid-area: header;
+}
+
+/* ========================== CONTACT ========================== */
+.connect {
+    grid-area: connect;
+}
+
+/* ========================== POSTS ========================== */
+.previous-posts {
+    grid-area: post;
+}
+
+/* ========================== PROJECTS ========================== */
+.projects {
+    grid-area: projects;
+}
+
+/* ========================== FOOTER ========================== */
+.page-footer {
+    grid-area: footer;
+}
