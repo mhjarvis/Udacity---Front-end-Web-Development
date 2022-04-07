@@ -1,0 +1,12 @@
+* {
+    color: black;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: rgb(164, 163, 163);
+    text-decoration: underline;
+}

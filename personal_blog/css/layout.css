@@ -11,9 +11,21 @@
 }
 
 /* ========================== NAVIGATION ========================== */
-.page-navigation {
+.page-nav {
     grid-area: nav;
-    ;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.page-nav-list {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.page-nav-list-items {
+    margin: 0 3rem 0 3rem;
 }
 
 /* ========================== HEADING ========================== */
