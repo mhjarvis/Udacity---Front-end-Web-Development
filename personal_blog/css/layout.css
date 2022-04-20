@@ -34,27 +34,35 @@
     flex-direction: column;
     align-items: start;
     grid-area: header;
-    margin: 5% 10%;
+    margin: 5% 10% 0 10%;
 }
 
 /* ========================== CONTACT ========================== */
 .connect {
     grid-area: connect;    
-    font-size: 1.2em;
-    margin: 5% 10%;
+    margin: 5% 10% 0 10%;
     padding: 10px;
 }
 
 /* ========================== POSTS ========================== */
 .previous-posts {
     grid-area: post;
-    margin: 5% 10%;
+    margin: 5% 10% 0 10%;
+}
+
+.stick-right {
+    text-align: right;
+    list-style-type: none;
 }
 
 /* ========================== PROJECTS ========================== */
 .projects {
     grid-area: projects;
-    margin: 5% 10%;
+    margin: 5% 10% 0 10%;
+}
+
+.project-container {
+
 }
 
 /* ========================== FOOTER ========================== */

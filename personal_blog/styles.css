@@ -4,6 +4,11 @@
 @import "/css/colors.css";
 @import "/css/typeography.css";
 
+/* ========================== GENERAL ========================== */
+#no-border {
+    border: none;
+}
+
 /* ========================== NAVIGATION ========================== */
 
 
@@ -15,15 +20,31 @@
 /* ========================== CONTACT ========================== */
 .connect {
     border-radius: 1.2em;
-
+}
 /* ========================== POSTS ========================== */
 .previous-posts {
-
+    padding: 10px;
 }
+
+
+
 
 /* ========================== PROJECTS ========================== */
 .projects {
+    padding: 10px;
+}
 
+.projects-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+    
+}
+
+.proj-img {
+    height: 40px;
+    border-radius: 50%;
 }
 
 /* ========================== FOOTER ========================== */

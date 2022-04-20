@@ -4,13 +4,21 @@
 
 .nav-link {
     text-decoration: none;
+    color: rgb(208, 90, 90);
 }
 
 .nav-link:hover {
-    color: rgb(164, 163, 163);
+    color: black;
     text-decoration: underline;
 }
 
 .connect {
     background-color: rgb(224, 234, 241);
+}
+
+.orange-link {
+    color: rgb(208, 90, 90);
+}
+.orange-link:hover {
+    color: black;
 }

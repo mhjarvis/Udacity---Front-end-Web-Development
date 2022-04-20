@@ -13,6 +13,11 @@
     text-decoration: underline;
 }
 
+.h3-titles {
+    font-size: 2em;
+    border-bottom: dotted 3px black;
+}
+
 /* ========================== NAV ========================== */
 
 .page-nav {
@@ -29,3 +34,6 @@
 
 /* ========================== CONNECT ========================== */
 
+.connect, .previous-posts, .projects {
+    font-size: 1.2em;
+}
