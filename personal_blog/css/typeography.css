@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+* {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.bold-underline {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* ========================== NAV ========================== */
+
+.page-nav {
+    font-size: 1.5em;
+}
+
+.page-heading h1 {
+    font-size: 7em;
+}
+
+.page-heading p {
+    font-size: 1.5em;
+}
+
+/* ========================== CONNECT ========================== */
+
